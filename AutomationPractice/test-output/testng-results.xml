@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35374" started-at="2019-10-08T00:34:03Z" finished-at="2019-10-08T00:34:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35374" started-at="2019-10-08T00:34:03Z" finished-at="2019-10-08T00:34:38Z">
+      <class name="com.automation.test.AutomationTest">
+        <test-method status="PASS" signature="beforeAllTestStart()[pri:0, instance:com.automation.test.AutomationTest@369f73a2]" name="beforeAllTestStart" is-config="true" duration-ms="13" started-at="2019-10-07T20:34:03Z" finished-at="2019-10-07T20:34:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllTestStart -->
+        <test-method status="PASS" signature="beforeEachTestStart()[pri:0, instance:com.automation.test.AutomationTest@369f73a2]" name="beforeEachTestStart" is-config="true" duration-ms="4059" started-at="2019-10-07T20:34:03Z" finished-at="2019-10-07T20:34:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeEachTestStart -->
+        <test-method status="PASS" signature="Test_Automation()[pri:0, instance:com.automation.test.AutomationTest@369f73a2]" name="Test_Automation" duration-ms="28545" started-at="2019-10-07T20:34:07Z" finished-at="2019-10-07T20:34:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_Automation -->
+        <test-method status="PASS" signature="afterEachTestEnd(org.testng.ITestResult)[pri:0, instance:com.automation.test.AutomationTest@369f73a2]" name="afterEachTestEnd" is-config="true" duration-ms="2730" started-at="2019-10-07T20:34:35Z" finished-at="2019-10-07T20:34:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test_Automation status=SUCCESS method=AutomationTest.Test_Automation()[pri:0, instance:com.automation.test.AutomationTest@369f73a2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestEnd -->
+        <test-method status="PASS" signature="afterAllTestCompleted()[pri:0, instance:com.automation.test.AutomationTest@369f73a2]" name="afterAllTestCompleted" is-config="true" duration-ms="0" started-at="2019-10-07T20:34:38Z" finished-at="2019-10-07T20:34:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterAllTestCompleted -->
+      </class> <!-- com.automation.test.AutomationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
